@@ -1,0 +1,64 @@
+@import url("http://fonts.cdnfonts.com/css/common-pixel");
+
+body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/60489a18-9bce-460e-adfe-c32b9abcec20/de0g9kq-0033871e-89f0-4c77-a2c1-65d996d3a0b5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYwNDg5YTE4LTliY2UtNDYwZS1hZGZlLWMzMmI5YWJjZWMyMFwvZGUwZzlrcS0wMDMzODcxZS04OWYwLTRjNzctYTJjMS02NWQ5OTZkM2EwYjUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lE6eJpEKkjj22I-3A97kBiMgO_6yS7TR0dz3Xz_l8_Y");
+}
+
+.grid {
+  position: absolute; /* positioned relative to the nearest positioned ancestor*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 995px;
+  height: 650px;
+  border: solid rgb(114, 179, 17) 10px;
+  background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/104598-space-pixel_art-horizon-stars.jpg");
+  border-radius: 10px;
+}
+
+.header {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  width: 50%;
+  background-color: #6e1abc;
+  background: rgba(0, 255, 0, 0.377);
+  border: solid black 5px;
+}
+
+#score {
+  text-align: center;
+  font-family: "Common Pixel", sans-serif;
+  color: rgb(252, 252, 0);
+  font-size: 750%;
+}
+
+.brick {
+  position: absolute;
+  width: 105px;
+  height: 25px;
+  background-color: #d41bb9;
+}
+
+.weakBrick {
+  position: absolute;
+  width: 105px;
+  height: 25px;
+  background-color: gray;
+}
+
+.paddle {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #6200ff;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #fffb00;
+}
